@@ -1,0 +1,17 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:Poppins,sans-serif}
+body{background:#081120;color:#fff}
+header{display:flex;justify-content:space-between;align-items:center;padding:20px 8%;background:#0d1b2a;position:sticky;top:0}
+.logo{font-size:30px;font-weight:bold;color:#00bfff}
+nav a{color:#fff;text-decoration:none;margin:0 15px}
+nav a:hover{color:#00bfff}
+.btn,.primary-btn{background:#00bfff;color:#fff;padding:12px 24px;border-radius:30px;text-decoration:none}
+.hero{padding:120px 8%;display:flex;align-items:center;justify-content:space-between;gap:40px}
+.hero h1{font-size:56px;margin-bottom:20px}
+.hero span{color:#00bfff}
+.hero p{font-size:18px;color:#d0d0d0;margin-bottom:30px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;padding:70px 8%}
+.card,.service-card{background:#132238;padding:30px;border-radius:16px}
+#services,#contact{padding:80px 8%}
+.services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+footer{background:#050b15;padding:20px;text-align:center}
+@media(max-width:768px){.hero{flex-direction:column;text-align:center}header{flex-direction:column;gap:15px}}

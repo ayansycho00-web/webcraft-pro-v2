@@ -1,0 +1,11 @@
+User-agent: *
+
+Allow: /
+
+Sitemap: https://ayansycho00-web.github.io/webcraft-pro/sitemap.xml
+
+Disallow:
+
+# WebCraft Pro
+# Email: ayanhuyarr4578@gmail.com
+# Location: Near Jinnah International Airport, Karachi
